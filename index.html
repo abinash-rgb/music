@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="container">
+            <div class="navbar">
+                <img src="image/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SPECIFICATION</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONNECT</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                
+                <div class="left-col">
+                    <h1 >ALAN  WALKER  &nbsp
+                    <img src="image/alansq.jpg" class="alan"></h1>
+                    
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Routine
+                    </P>
+                    <img src="image/Routine.jpg" id="Routineicon">&nbsp<br>
+                </div>
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Darkside
+                    </P>
+                    <img src="image/Darkside.png" id="Darksideicon">&nbsp<br>
+                </div>        
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Ritual
+                    </P>
+                    <img src="image/Ritual.jpg" id="Ritualicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Force
+                    </P>
+                    <img src="image/Force.jpg" id="Forceicon">&nbsp<br>
+                </div>
+                
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Alone
+                    </P>
+                    <img src="image/Alone.jpg" id="Aloneicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Alone
+                    </P>
+                    <img src="image/Alone.jpg" id="Aloneicon">&nbsp<br>
+                </div>
+            </div>
+        </div>
+        <audio id="Routine">
+            <source src="song.mp3" type="audio/mp3">
+            
+        </audio>
+        <script>
+            var Routine = document.getElementById("Routine");
+            var Routineicon = document.getElementById("Routineicon")
+
+            Routineicon.onclick = function(){
+                if(Routine.paused){
+                    Routine.play();
+                    Routineicon.src = "image/pause.png";
+            }else{
+                    Routine.pause();
+                    Routineicon.src = "image/Routine.jpg";
+            }
+            }
+        </script>
+
+        <audio id="Darkside">
+            <source src="Darkside_(getmp3.pro).mp3" type="audio/mp3">        
+        </audio>
+        <script>
+            var Darkside = document.getElementById("Darkside");
+            var Darksideicon = document.getElementById("Darksideicon")
+            
+            Darksideicon.onclick = function(){
+                if(Darkside.paused){
+                    Darkside.play();
+                    Darksideicon.src = "image/pause.png";
+            }else{
+                    Darkside.pause();
+                    Darksideicon.src = "Darkside.png";
+            }
+            }
+        </script>
+
+        <audio id="Ritual">
+            <source src="Ritual_(getmp3.pro).mp3" type="audio/mp3">    
+        </audio>
+        <script>
+            var Ritual = document.getElementById("Ritual");
+            var Ritualicon = document.getElementById("Ritualicon")
+
+            Ritualicon.onclick = function(){
+                if(Ritual.paused){
+                    Ritual.play();
+                    Ritualicon.src = "image/pause.png";
+            }else{
+                    Ritual.pause();
+                    Ritualicon.src = "image/Ritual.jpg";
+            }
+            }
+        </script>
+
+        <audio id="Force">
+            <source src="Force_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var Force = document.getElementById("Force");
+            var Forceicon = document.getElementById("Forceicon")
+
+            Forceicon.onclick = function(){
+                if(Force.paused){
+                    Force.play();
+                    Forceicon.src = "image/pause.png";
+            }else{
+                    Force.pause();
+                    Forceicon.src = "image/Force.jpg";
+            }
+            }
+        </script>
+
+        <audio id="Alone">
+            <source src="Alone_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var Alone = document.getElementById("Alone");
+            var Aloneicon = document.getElementById("Aloneicon")
+
+            Aloneicon.onclick = function(){
+                if(Alone.paused){
+                    Alone.play();
+                    Aloneicon.src = "image/pause.png";
+            }else{
+                    Alone.pause();
+                    Aloneicon.src = "image/Alone.jpg";
+            }
+            }
+        </script>
+    </div>
+</body>
+</html>
