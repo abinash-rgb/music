@@ -7,7 +7,7 @@
     background-image: url("image/peakpx.jpg");
 
     /* Set a specific height */
-    min-height: 1100px; 
+    min-height: 1300px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -74,7 +74,8 @@
 }
 
 .left-col h1 img{
-    width: 250px;
+    width: 400px;
+    float: right;
 }
 
 
@@ -103,66 +104,83 @@
 }
 
 #Routineicon{
-    width: 80px;
+    width: 95px;
     cursor: pointer;
 }
 
 #Darksideicon{
-    width: 80px;
+    width: 95px;
     cursor: pointer;
 }
 
 #Ritualicon{
-    width: 80px;
+    width: 95px;
     cursor: pointer;
 }
 
 #Forceicon{
-    width: 80px;
+    width: 95px;
     cursor: pointer;
 }
 
 #Aloneicon{
-    width: 80px;
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#On_my_wayicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#Fadedicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#The_spectreicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#Igniteicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#Sing_me_to_sleepicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#All_falls_downicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
+#Alone_pt_IIicon{
+    width: 95px;
     cursor: pointer;
 }
 
-#Ritualicon{
-    width: 80px;
-    cursor: pointer;
-}
+.parallax2 {
+    position: relative;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .parallax2 {
+    background-image: url("image/image.png");
+    min-height: 1000px;
+  }
+  .heading{
+    margin-left: 6%;
+  }
+  .heading h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    float: center;
+  }

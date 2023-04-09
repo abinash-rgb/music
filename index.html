@@ -61,15 +61,58 @@
 
                 <div class="right-col">
                     <P>Click here to play<br>
-                        Alone
+                        On my way
                     </P>
-                    <img src="image/Alone.jpg" id="Aloneicon">&nbsp<br>
+                    <img src="image/On my way.jpg" id="On_my_wayicon">&nbsp<br>
                 </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Faded
+                    </P>
+                    <img src="image/Faded.jpg" id="Fadedicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        The spectre
+                    </P>
+                    <img src="image/The spectre.png" id="The_spectreicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Ignite
+                    </P>
+                    <img src="image/Ignite.jpg" id="Igniteicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Sing me to sleep
+                    </P>
+                    <img src="image/Sing me to sleep.jpg" id="Sing_me_to_sleepicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        All falls down
+                    </P>
+                    <img src="image/All falls down.jpg" id="All_falls_downicon">&nbsp<br>
+                </div>
+
+                <div class="right-col">
+                    <P>Click here to play<br>
+                        Alone Pt II
+                    </P>
+                    <img src="image/Alone pt II.jpg" id="Alone_pt_IIicon">&nbsp<br>
+                </div>
+
+                
             </div>
         </div>
         <audio id="Routine">
-            <source src="song.mp3" type="audio/mp3">
-            
+            <source src="songs/Routine_(getmp3.pro).mp3" type="audio/mp3">
         </audio>
         <script>
             var Routine = document.getElementById("Routine");
@@ -87,7 +130,7 @@
         </script>
 
         <audio id="Darkside">
-            <source src="Darkside_(getmp3.pro).mp3" type="audio/mp3">        
+            <source src="songs/Darkside_(getmp3.pro).mp3" type="audio/mp3">        
         </audio>
         <script>
             var Darkside = document.getElementById("Darkside");
@@ -99,13 +142,13 @@
                     Darksideicon.src = "image/pause.png";
             }else{
                     Darkside.pause();
-                    Darksideicon.src = "Darkside.png";
+                    Darksideicon.src = "image/Darkside.png";
             }
             }
         </script>
 
         <audio id="Ritual">
-            <source src="Ritual_(getmp3.pro).mp3" type="audio/mp3">    
+            <source src="songs/Ritual_(getmp3.pro).mp3" type="audio/mp3">    
         </audio>
         <script>
             var Ritual = document.getElementById("Ritual");
@@ -123,7 +166,7 @@
         </script>
 
         <audio id="Force">
-            <source src="Force_(getmp3.pro).mp3" type="audio/mp3">
+            <source src="songs/Force_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
@@ -143,7 +186,7 @@
         </script>
 
         <audio id="Alone">
-            <source src="Alone_(getmp3.pro).mp3" type="audio/mp3">
+            <source src="songs/Alone_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
@@ -161,6 +204,159 @@
             }
             }
         </script>
+
+        <audio id="On_my_way">
+            <source src="songs/On_My_Way_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var On_my_way = document.getElementById("On_my_way");
+            var On_my_wayicon = document.getElementById("On_my_wayicon")
+
+            On_my_wayicon.onclick = function(){
+                if(On_my_way.paused){
+                    On_my_way.play();
+                    On_my_wayicon.src = "image/pause.png";
+            }else{
+                    On_my_way.pause();
+                    On_my_wayicon.src = "image/On my way.jpg";
+            }
+            }
+        </script>
+
+        <audio id="Faded">
+            <source src="songs/Faded_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var Faded = document.getElementById("Faded");
+            var Fadedicon = document.getElementById("Fadedicon")
+
+            Fadedicon.onclick = function(){
+                if(Faded.paused){
+                    Faded.play();
+                    Fadedicon.src = "image/pause.png";
+            }else{
+                    Faded.pause();
+                    Fadedicon.src = "image/Faded.jpg";
+            }
+            }
+        </script>
+
+        <audio id="The_spectre">
+            <source src="songs/The_spectre_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var The_spectre = document.getElementById("The_spectre");
+            var The_spectreicon = document.getElementById("The_spectreicon")
+
+            The_spectreicon.onclick = function(){
+                if(The_spectre.paused){
+                    The_spectre.play();
+                    The_spectreicon.src = "image/pause.png";
+            }else{
+                    The_spectre.pause();
+                    The_spectreicon.src = "image/The spectre.png";
+            }
+            }
+        </script>
+
+        <audio id="Ignite">
+            <source src="songs/Ignite_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var Ignite = document.getElementById("Ignite");
+            var Igniteicon = document.getElementById("Igniteicon")
+
+            Igniteicon.onclick = function(){
+                if(Ignite.paused){
+                    Ignite.play();
+                    Igniteicon.src = "image/pause.png";
+            }else{
+                    Ignite.pause();
+                    Igniteicon.src = "image/Ignite.jpg";
+            }
+            }
+        </script>
+
+        <audio id="Sing_me_to_sleep">
+            <source src="songs/Ignite_(getmp3.pro).mp3" type="audio/mp3">
+        </audio>
+        <script>
+            var Sing_me_to_sleep = document.getElementById("Sing_me_to_sleep");
+            var Sing_me_to_sleepicon = document.getElementById("Sing_me_to_sleepicon")
+
+            Sing_me_to_sleepicon.onclick = function(){
+                if(Sing_me_to_sleep.paused){
+                    Sing_me_to_sleep.play();
+                    Sing_me_to_sleepicon.src = "image/pause.png";
+            }else{
+                    Sing_me_to_sleep.pause();
+                    Sing_me_to_sleepicon.src = "image/Sing me to sleep.jpg";
+            }
+            }
+        </script>
+
+        <audio id="All_falls_down">
+            <source src="songs/All_Falls_Down_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+        <script>
+            var All_falls_down = document.getElementById("All_falls_down");
+            var All_falls_downicon = document.getElementById("All_falls_downicon")
+
+            All_falls_downicon.onclick = function(){
+                if(All_falls_down.paused){
+                    All_falls_down.play();
+                    All_falls_downicon.src = "image/pause.png";
+            }else{
+                    All_falls_down.pause();
+                    All_falls_downicon.src = "image/All falls down.jpg";
+            }
+            }
+        </script>
+
+        <audio id="Alone_pt_II">
+            <source src="songs/Alone_pt_II_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+        <script>
+            var Alone_pt_II = document.getElementById("Alone_pt_II");
+            var Alone_pt_IIicon = document.getElementById("Alone_pt_IIicon")
+
+            Alone_pt_IIicon.onclick = function(){
+                if(Alone_pt_II.paused){
+                    Alone_pt_II.play();
+                    Alone_pt_IIicon.src = "image/pause.png";
+            }else{
+                    Alone_pt_II.pause();
+                    Alone_pt_IIicon.src = "image/Alone pt II.jpg";
+            }
+            }
+        </script>
     </div>
+    <div class="parallax2">
+
+    <div style="color: #777;
+    background-color:white;
+    text-align:center;
+    padding:5px 80px;
+    text-align: justify;">
+        <!--<h3 style="text-align:center;">Parallax Demo</h3>
+        <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>-->
+    </div>
+    <div class="heading">
+        <h1>ALAN  WALKER  &nbsp</h1>
+        <p></p>
+    </div>
+
+      
 </body>
+
 </html>
