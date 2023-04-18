@@ -7,7 +7,7 @@
     background-image: url("image/peakpx.jpg");
 
     /* Set a specific height */
-    min-height: 13000px; 
+    min-height: 1500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
