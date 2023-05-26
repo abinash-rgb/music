@@ -2,8 +2,315 @@
 <html>
 <head>
     <title>music</title>
-    <link rel="stylesheet" href="style.css">
+    
 </head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.parallax{
+    background-image: url("image/alan walker/peakpx.jpg");
+
+    /* Set a specific height */
+    min-height: 1350px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /*.container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-image: url("peak.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}*/
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}    
+
+.content{
+    width: 100%;
+    position: absolute;
+    top:30%;
+}
+
+.left-col{
+    margin-left: 6%;
+}
+
+
+
+.left-col h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+    text-align: center;
+}
+
+.left-col h1 img{
+    width: 400px;
+    float: right;
+}
+
+
+
+.right-col{
+    float:right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    float:right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.list p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#songoneicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songtwoicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songthreeicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songfouricon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songfiveicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songsixicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songsevenicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songeighticon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songnineicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songtenicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songelevenicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+#songtwelveicon{
+    width: 95px;
+    cursor: pointer;
+}
+
+.parallax2 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("image/image.png");
+    min-height: 767px;
+  }
+
+
+  .heading{
+    margin-left: 6%;
+  }
+  .heading h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    float: center;
+  }
+  .heading1 h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    float: center;
+  }
+  .heading p{
+    float: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .heading1 p{
+    float: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+  }
+
+
+  .parallax3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+  
+  }
+  .parallax3 {
+    background-image: url("image/artist list dark.jpg");
+    min-height: 775px;
+  }
+
+
+  .parallax4 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("image/image.png");
+  
+  }
+
+  .parallax4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+
+.About{
+    background-color: black;
+    text-align: center;
+  
+  }
+  
+  .social_icon {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social_icon ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.social_icon li {
+    float: left;
+    padding: 30px 5px;
+}  
+
+.contact p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.left{
+    margin: 0px;
+}
+
+.left img{
+    width: 200px;
+    height: 280px;
+    float: left;
+}
+
+.left p{
+    color: white;
+    font-size: 25px;
+
+}
+
+.right {
+    margin: 0px;
+    float: right;
+}
+
+.right img{
+    width: 350px;
+    height: 250px;
+    float: right;
+}
+
+.right p{
+    color: white;
+    font-size: 25px;
+    
+}
+</style>
 
 <body>
     <div class="home">
@@ -16,14 +323,14 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#more">EXPLORE</a></li>
                     <li><a href="#">PRODUCTS</a></li>
-                    <li><a href="#">CONNECT</a></li>
+                    <li><a href="#connect">CONNECT</a></li>
                 </ul>
             </div>
             <div class="content">
                 
                 <div class="left-col">
                     <h1 >ALAN  WALKER  &nbsp
-                    <img src="image/alansq.jpg" class="alan"></h1>
+                    <img src="image/alan walker/alansq.jpg" class="alan"></h1>
                     
                 </div>
 
@@ -31,313 +338,313 @@
                     <P>Click here to play<br>
                         Routine
                     </P>
-                    <img src="image/Routine.jpg" id="Routineicon">&nbsp<br>
+                    <img src="image/alan walker/Routine.jpg" id="songoneicon">&nbsp<br>
                 </div>
                 <div class="right-col">
                     <P>Click here to play<br>
                         Darkside
                     </P>
-                    <img src="image/Darkside.png" id="Darksideicon">&nbsp<br>
+                    <img src="image/alan walker//Darkside.png" id="songtwoicon">&nbsp<br>
                 </div>        
                 <div class="right-col">
                     <P>Click here to play<br>
                         Ritual
                     </P>
-                    <img src="image/Ritual.jpg" id="Ritualicon">&nbsp<br>
+                    <img src="image/alan walker/Ritual.jpg" id="songthreeicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         Force
                     </P>
-                    <img src="image/Force.jpg" id="Forceicon">&nbsp<br>
+                    <img src="image/alan walker/Force.jpg" id="songfouricon">&nbsp<br>
                 </div>
                 
                 <div class="right-col">
                     <P>Click here to play<br>
                         Alone
                     </P>
-                    <img src="image/Alone.jpg" id="Aloneicon">&nbsp<br>
+                    <img src="image/alan walker/Alone.jpg" id="songfiveicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         On my way
                     </P>
-                    <img src="image/On my way.jpg" id="On_my_wayicon">&nbsp<br>
+                    <img src="image/alan walker/On my way.jpg" id="songsixicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         Faded
                     </P>
-                    <img src="image/Faded.jpg" id="Fadedicon">&nbsp<br>
+                    <img src="image/alan walker/Faded.jpg" id="songsevenicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         The spectre
                     </P>
-                    <img src="image/The spectre.png" id="The_spectreicon">&nbsp<br>
+                    <img src="image/alan walker/The spectre.png" id="songeighticon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         Ignite
                     </P>
-                    <img src="image/Ignite.jpg" id="Igniteicon">&nbsp<br>
+                    <img src="image/alan walker/Ignite.jpg" id="songnineicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         Sing me to sleep
                     </P>
-                    <img src="image/Sing me to sleep.jpg" id="Sing_me_to_sleepicon">&nbsp<br>
+                    <img src="image/alan walker/Sing me to sleep.jpg" id="songtenicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         All falls down
                     </P>
-                    <img src="image/All falls down.jpg" id="All_falls_downicon">&nbsp<br>
+                    <img src="image/alan walker/All falls down.jpg" id="songelevenicon">&nbsp<br>
                 </div>
 
                 <div class="right-col">
                     <P>Click here to play<br>
                         Alone Pt II
                     </P>
-                    <img src="image/Alone pt II.jpg" id="Alone_pt_IIicon">&nbsp<br>
+                    <img src="image/alan walker/Alone pt II.jpg" id="songtwelveicon">&nbsp<br>
                 </div>
 
                 
             </div>
         </div>
-        <audio id="Routine">
-            <source src="songs/Routine_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songone">
+            <source src="songs/alan walker/Routine_(getmp3.pro).mp3" type="audio/mp3">
         </audio>
         <script>
-            var Routine = document.getElementById("Routine");
-            var Routineicon = document.getElementById("Routineicon")
+            var songone = document.getElementById("songone");
+            var songoneicon = document.getElementById("songoneicon")
 
-            Routineicon.onclick = function(){
-                if(Routine.paused){
-                    Routine.play();
-                    Routineicon.src = "image/pause.png";
+            songoneicon.onclick = function(){
+                if(songone.paused){
+                    songone.play();
+                    songoneicon.src = "image/pause.png";
             }else{
-                    Routine.pause();
-                    Routineicon.src = "image/Routine.jpg";
+                    songone.pause();
+                    songoneicon.src = "image/alan walker/Routine.jpg";
             }
             }
         </script>
 
-        <audio id="Darkside">
-            <source src="songs/Darkside_(getmp3.pro).mp3" type="audio/mp3">        
+        <audio id="songtwo">
+            <source src="songs/alan walker/Darkside_(getmp3.pro).mp3" type="audio/mp3">        
         </audio>
         <script>
-            var Darkside = document.getElementById("Darkside");
-            var Darksideicon = document.getElementById("Darksideicon")
+            var songtwo = document.getElementById("songtwo");
+            var songtwoicon = document.getElementById("songtwoicon")
             
-            Darksideicon.onclick = function(){
-                if(Darkside.paused){
-                    Darkside.play();
-                    Darksideicon.src = "image/pause.png";
+            songtwoicon.onclick = function(){
+                if(songtwo.paused){
+                    songtwo.play();
+                    songtwoicon.src = "image/pause.png";
             }else{
-                    Darkside.pause();
-                    Darksideicon.src = "image/Darkside.png";
+                    songtwo.pause();
+                    songtwoicon.src = "image/alan walker/Darkside.png";
             }
             }
         </script>
 
-        <audio id="Ritual">
-            <source src="songs/Ritual_(getmp3.pro).mp3" type="audio/mp3">    
+        <audio id="songthree">
+            <source src="songs/alan walker/Ritual_(getmp3.pro).mp3" type="audio/mp3">    
         </audio>
         <script>
-            var Ritual = document.getElementById("Ritual");
-            var Ritualicon = document.getElementById("Ritualicon")
+            var songthree = document.getElementById("songthree");
+            var songthreeicon = document.getElementById("songthreeicon")
 
-            Ritualicon.onclick = function(){
-                if(Ritual.paused){
-                    Ritual.play();
-                    Ritualicon.src = "image/pause.png";
+            songthreeicon.onclick = function(){
+                if(songthree.paused){
+                    songthree.play();
+                    songthreeicon.src = "image/pause.png";
             }else{
-                    Ritual.pause();
-                    Ritualicon.src = "image/Ritual.jpg";
+                    songthree.pause();
+                    songthreeicon.src = "image/alan walker/Ritual.jpg";
             }
             }
         </script>
 
-        <audio id="Force">
-            <source src="songs/Force_(getmp3.pro).mp3" type="audio/mp3">
-            
-        </audio>
-
-        <script>
-            var Force = document.getElementById("Force");
-            var Forceicon = document.getElementById("Forceicon")
-
-            Forceicon.onclick = function(){
-                if(Force.paused){
-                    Force.play();
-                    Forceicon.src = "image/pause.png";
-            }else{
-                    Force.pause();
-                    Forceicon.src = "image/Force.jpg";
-            }
-            }
-        </script>
-
-        <audio id="Alone">
-            <source src="songs/Alone_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songfour">
+            <source src="songs/alan walker/Force_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
         <script>
-            var Alone = document.getElementById("Alone");
-            var Aloneicon = document.getElementById("Aloneicon")
+            var songfour = document.getElementById("songfour");
+            var songfouricon = document.getElementById("songfouricon")
 
-            Aloneicon.onclick = function(){
-                if(Alone.paused){
-                    Alone.play();
-                    Aloneicon.src = "image/pause.png";
+            songfouricon.onclick = function(){
+                if(songfour.paused){
+                    songfour.play();
+                    songfouricon.src = "image/pause.png";
             }else{
-                    Alone.pause();
-                    Aloneicon.src = "image/Alone.jpg";
+                    songfour.pause();
+                    songfouricon.src = "image/alan walker/Force.jpg";
             }
             }
         </script>
 
-        <audio id="On_my_way">
-            <source src="songs/On_My_Way_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songfive">
+            <source src="songs/alan walker/Alone_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
         <script>
-            var On_my_way = document.getElementById("On_my_way");
-            var On_my_wayicon = document.getElementById("On_my_wayicon")
+            var songfive = document.getElementById("songfive");
+            var songfiveicon = document.getElementById("songfiveicon")
 
-            On_my_wayicon.onclick = function(){
-                if(On_my_way.paused){
-                    On_my_way.play();
-                    On_my_wayicon.src = "image/pause.png";
+            songfiveicon.onclick = function(){
+                if(songfive.paused){
+                    songfive.play();
+                    songfiveicon.src = "image/pause.png";
             }else{
-                    On_my_way.pause();
-                    On_my_wayicon.src = "image/On my way.jpg";
+                    songfive.pause();
+                    songfiveicon.src = "image/alan walker/Alone.jpg";
             }
             }
         </script>
 
-        <audio id="Faded">
-            <source src="songs/Faded_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songsix">
+            <source src="songs/alan walker/On_My_Way_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
         <script>
-            var Faded = document.getElementById("Faded");
-            var Fadedicon = document.getElementById("Fadedicon")
+            var songsix = document.getElementById("songsix");
+            var songsixicon = document.getElementById("songsixicon")
 
-            Fadedicon.onclick = function(){
-                if(Faded.paused){
-                    Faded.play();
-                    Fadedicon.src = "image/pause.png";
+            songsixicon.onclick = function(){
+                if(songsix.paused){
+                    songsix.play();
+                    songsixicon.src = "image/pause.png";
             }else{
-                    Faded.pause();
-                    Fadedicon.src = "image/Faded.jpg";
+                    songsix.pause();
+                    songsixicon.src = "image/alan walker/On my way.jpg";
             }
             }
         </script>
 
-        <audio id="The_spectre">
-            <source src="songs/The_spectre_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songseven">
+            <source src="songs/alan walker/Faded_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
         <script>
-            var The_spectre = document.getElementById("The_spectre");
-            var The_spectreicon = document.getElementById("The_spectreicon")
+            var songseven = document.getElementById("songseven");
+            var songsevenicon = document.getElementById("songsevenicon")
 
-            The_spectreicon.onclick = function(){
-                if(The_spectre.paused){
-                    The_spectre.play();
-                    The_spectreicon.src = "image/pause.png";
+            songsevenicon.onclick = function(){
+                if(songseven.paused){
+                    songseven.play();
+                    songsevenicon.src = "image/pause.png";
             }else{
-                    The_spectre.pause();
-                    The_spectreicon.src = "image/The spectre.png";
+                    songseven.pause();
+                    songsevenicon.src = "image/alan walker/Faded.jpg";
             }
             }
         </script>
 
-        <audio id="Ignite">
-            <source src="songs/Ignite_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songeight">
+            <source src="songs/alan walker/The_spectre_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
 
         <script>
-            var Ignite = document.getElementById("Ignite");
-            var Igniteicon = document.getElementById("Igniteicon")
+            var songeight = document.getElementById("songeight");
+            var songeighticon = document.getElementById("songeighticon")
 
-            Igniteicon.onclick = function(){
-                if(Ignite.paused){
-                    Ignite.play();
-                    Igniteicon.src = "image/pause.png";
+            songeighticon.onclick = function(){
+                if(songeight.paused){
+                    songeight.play();
+                    songeighticon.src = "image/pause.png";
             }else{
-                    Ignite.pause();
-                    Igniteicon.src = "image/Ignite.jpg";
+                    songeight.pause();
+                    songeighticon.src = "image/alan walker/The spectre.png";
             }
             }
         </script>
 
-        <audio id="Sing_me_to_sleep">
-            <source src="songs/Ignite_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songnine">
+            <source src="songs/alan walker/Ignite_(getmp3.pro).mp3" type="audio/mp3">
+            
+        </audio>
+
+        <script>
+            var songnine = document.getElementById("songnine");
+            var songnineicon = document.getElementById("songnineicon")
+
+            songnineicon.onclick = function(){
+                if(songnine.paused){
+                    songnine.play();
+                    songnineicon.src = "image/pause.png";
+            }else{
+                    songnine.pause();
+                    songnineicon.src = "image/alan walker/Ignite.jpg";
+            }
+            }
+        </script>
+
+        <audio id="songten">
+            <source src="songs/alan walker/Sing_Me_To_Sleep_(getmp3.pro).mp3" type="audio/mp3">
         </audio>
         <script>
-            var Sing_me_to_sleep = document.getElementById("Sing_me_to_sleep");
-            var Sing_me_to_sleepicon = document.getElementById("Sing_me_to_sleepicon")
+            var songten = document.getElementById("songten");
+            var songtenicon = document.getElementById("songtenicon")
 
-            Sing_me_to_sleepicon.onclick = function(){
-                if(Sing_me_to_sleep.paused){
-                    Sing_me_to_sleep.play();
-                    Sing_me_to_sleepicon.src = "image/pause.png";
+            songtenicon.onclick = function(){
+                if(songten.paused){
+                    songten.play();
+                    songtenicon.src = "image/pause.png";
             }else{
-                    Sing_me_to_sleep.pause();
-                    Sing_me_to_sleepicon.src = "image/Sing me to sleep.jpg";
+                    songten.pause();
+                    songtenicon.src = "image/alan walker/Sing me to sleep.jpg";
             }
             }
         </script>
 
-        <audio id="All_falls_down">
-            <source src="songs/All_Falls_Down_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songeleven">
+            <source src="songs/alan walker/All_Falls_Down_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
         <script>
-            var All_falls_down = document.getElementById("All_falls_down");
-            var All_falls_downicon = document.getElementById("All_falls_downicon")
+            var songeleven = document.getElementById("songeleven");
+            var songelevenicon = document.getElementById("songelevenicon")
 
-            All_falls_downicon.onclick = function(){
-                if(All_falls_down.paused){
-                    All_falls_down.play();
-                    All_falls_downicon.src = "image/pause.png";
+            songelevenicon.onclick = function(){
+                if(songeleven.paused){
+                    songeleven.play();
+                    songelevenicon.src = "image/pause.png";
             }else{
-                    All_falls_down.pause();
-                    All_falls_downicon.src = "image/All falls down.jpg";
+                    songeleven.pause();
+                    songelevenicon.src = "image/alan walker/All falls down.jpg";
             }
             }
         </script>
 
-        <audio id="Alone_pt_II">
-            <source src="songs/Alone_pt_II_(getmp3.pro).mp3" type="audio/mp3">
+        <audio id="songtwelve">
+            <source src="songs/alan walker/Alone_pt_II_(getmp3.pro).mp3" type="audio/mp3">
             
         </audio>
         <script>
-            var Alone_pt_II = document.getElementById("Alone_pt_II");
-            var Alone_pt_IIicon = document.getElementById("Alone_pt_IIicon")
+            var songtwelve = document.getElementById("songtwelve");
+            var songtwelveicon = document.getElementById("songtwelveicon")
 
-            Alone_pt_IIicon.onclick = function(){
-                if(Alone_pt_II.paused){
-                    Alone_pt_II.play();
-                    Alone_pt_IIicon.src = "image/pause.png";
+            songtwelveicon.onclick = function(){
+                if(songtwelve.paused){
+                    songtwelve.play();
+                    songtwelveicon.src = "image/pause.png";
             }else{
-                    Alone_pt_II.pause();
-                    Alone_pt_IIicon.src = "image/Alone pt II.jpg";
+                    songtwelve.pause();
+                    songtwelveicon.src = "image/alan walker/Alone pt II.jpg";
             }
             }
         </script>
@@ -355,7 +662,10 @@
         </div>
         <div class="heading">
             <h1><a name="about">ABOUT  &nbsp</h1>
-            <p>This is the about section of the artist you are listening to for now there is nothing since i dont know about the artist </p>
+            <p>This is the about section of the artist you are listening to for now there is nothing since i dont know about the artist </p><br>
+            <P>Alan Olav Walker (born 24 August 1997) is a British-Norwegian music producer and DJ primarily known for the critically acclaimed single "Faded" (2015), which was certified platinum in 14 countries. He has also made several songs including "Sing Me to Sleep", "Alone", "Darkside", and "On My Way", all of which attracted millions of views on YouTube.
+
+In early 2017, Walker's channel emerged as the most subscribed YouTube channel registered in Norway, with 6 million subscribers. As of March 2023, his channel is still most subscribed in Norway, achieving 43 million subscribers on 11 March 2023. He also has the most views of any Norwegian creator, with approximately 12.1 billion views as of 21 January 2023.</P>
         </div>
     </div>
 
@@ -364,48 +674,69 @@
         </div>
         <div class="container2">
            
-            <div class="heading">
+            <div class="heading1">
                 <h1><a name="more">MORE ARTIST  &nbsp</h1>
                     
                     <div class="list">
-                        <p>1.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>2click ...</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>3.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>4.click ..</p>
+                        <a href="arijit singh.html"><p>1.Arijit Singh</p></a>
                     </div>
                     <div class="list">
-                        <p>5.click ..</p>
-                    </div>                    
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
+                    </div>                     
                     <div class="list">
-                        <p>6.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>7.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>8.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>9.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>10.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>11.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                     </div>
                     <div class="list">
-                        <p>12.click ..</p>
+                        <a href="index - Copy (2).html"><p>1.click .....</p></a>
                      </div>
             </div>
-                
-      
+        </div>
+    </div>
+    <div class="parallax4">
+        <a name="connect">
+        <div style="background-color:rgb(26, 17, 17); padding:5px 80px;">
+           
+            <div class="social_icon">
+                <ul>
+                   <li><a href="#"><img src="image/fb.png"></a></li>
+                   <li><a href="#"><img src="image/twitter.png"></a></li>
+                   <li><a href="#"><img src="image/linkedin.png"></a></li>
+                   <li><a href="https://www.instagram.com/gitabbsr/"><img src="image/instagram.png"></a></li>
+                </ul>
+            </div>
+                <div class="contact">
+                    
+                    <p>Contact us:<br>just don't do it nobody have time for that.</p>
+                    <p>Designed and developed by:<br>   Savita bhabi private problems.</p>
+                    <p>© 2000 by CSIT department of GITA.<br>NO Right Reserved cause we are broke.</p>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>      
 </body>
-
 </html>
